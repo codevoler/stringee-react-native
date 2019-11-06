@@ -37,12 +37,12 @@
     end
 
 ```
-
+**Note** If you use React Native >= 0.59, update platform :ios, '8.0' to platform :ios, '9.0'
 4. Now run, `pod install`
 
 5. Open XCode
 
-6. Open `<YourProjectName>.xcworkspace` file in XCode. This file can be found in the `ios` folder of your React Native project. 
+6. Open `<YourProjectName>.xcworkspace` file in XCode. This file can be found in the `ios` folder of your React Native project.
 
 7. In the "Build Settings" tab -> "Other linker flags" add "$(inherited)" flag.
 
@@ -75,5 +75,4 @@
   	```
       compile project(':stringee-react-native')
   	```
-
-  
+**Note** Supported for androidx
